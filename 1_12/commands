@@ -1,0 +1,2 @@
+docker build -t example-frontend .
+docker run --rm -d --name hellofrontend -p 5001:5001 example-frontend:latest
